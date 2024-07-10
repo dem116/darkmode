@@ -1,0 +1,68 @@
+
+/* MODO CLARO*/
+body {
+    background-color: white;
+    color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-head {
+    font-size: 30px;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 800px;
+    height: 800px;
+}
+
+/* MODO OSCURO */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .header-container {
+    background-color: #121212;
+    color: yellow;
+}
+
+.dark-mode .h2-section {
+    color: yellow;
+}
+
+.dark-mode .p-section {
+    background-color: #121212;
+    color: white;
+}
+
+#toggle-button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggle-button:hover {
+    background-color: #45a049;
+}
